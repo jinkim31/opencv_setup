@@ -46,6 +46,7 @@ cmake \
 -D BUILD_EXAMPLES=OFF \
 -D CMAKE_BUILD_TYPE=RELEASE \
 -D OPENCV_ENABLE_NONFREE=ON \
+-D BUILD_TIFF=ON \
 -D CMAKE_INSTALL_PREFIX=/usr/local/opencv-${opencv_version} ..
 make -j$(nproc)
 
