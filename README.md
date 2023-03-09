@@ -16,7 +16,7 @@ $ nvidia-smi
 ```
 
 ### 2. Install CUDA 11.x
-https://developer.nvidia.com/cuda-toolkit
+https://developer.nvidia.com/cuda-11-8-0-download-archive
 - Operating system: Linux
 - Archetecture: x86_64
 - Distribution: Ubuntu
