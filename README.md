@@ -16,12 +16,13 @@ $ nvidia-smi
 ```
 
 ### 2. Install CUDA 11.x
-https://developer.nvidia.com/cuda-toolkit 
+https://developer.nvidia.com/cuda-toolkit
 - Operating system: Linux
 - Archetecture: x86_64
 - Distribution: Ubuntu
 - Version: 20.04(or whatever version you are running)
 - Installer type deb [local]
+Check CUDA version you are installing carefully. Some CUDA deprecated features may get removed in the heghier versions and OpenCV won't compile.
 
 ### 3. Install cuDNN for CUDA 11.x
 https://developer.nvidia.com/cudnn-download-survey
