@@ -22,6 +22,7 @@ https://developer.nvidia.com/cuda-11-8-0-download-archive
 - Distribution: Ubuntu
 - Version: 20.04(or whatever version you are running)
 - Installer type deb [local]
+
 Check CUDA version you are installing carefully. Some CUDA deprecated features may get removed in the heghier versions and OpenCV won't compile.
 
 ### 3. Install cuDNN for CUDA 11.x
